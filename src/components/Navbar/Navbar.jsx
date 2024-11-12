@@ -12,7 +12,7 @@ const Navbar = () => {
   const [navArray, setNavArray] = useState([]);
   useEffect(() => {
     
-  const navArray = (location[0] === '/') ? ["home", "about", "courses", "FAQ"] : [{name: "home", id: ""},{name: "terms of use", id:"terms-of-use"},{name: "privacy policy", id: "privacy-policy"}];
+  const navArray = (location[0] === '/') ? ["home", "about", "courses", "FAQ"] : [{name: "home", id: ""},{name: "terms of use", id:"terms-of-use"},{name: "privacy policy", id: "policy"}];
     setNavArray(navArray)
   },[])
   return (

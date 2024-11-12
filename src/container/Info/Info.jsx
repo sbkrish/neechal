@@ -172,7 +172,7 @@ const Info = () => {
   <p>© Neechal 2024. All rights reserved.</p>
   <div className="flex space-x-4">
     <Link href='/terms-of-use' className="hover:underline">Terms of Use</Link>
-    <Link href='/privacy-policy' className="hover:underline">Privacy Policy</Link>
+    <Link href='/policy' className="hover:underline">Privacy Policy</Link>
   </div>
 </div>
 
