@@ -7,8 +7,6 @@ export const client = createClient({
     apiVersion: '2022-03-01',
     useCdn: false,
 });
-console.log(import.meta.env.VITE_SANITY_PROJECT_ID);
-
 
 const builder = imageUrlBuilder(client);
 
