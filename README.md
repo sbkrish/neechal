@@ -1,8 +1,11 @@
-# React + Vite
+# Neechal: Your Path to Tech Success
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Neechal** is an educational platform dedicated to empowering students and professionals to build IT skills and transition into the tech industry. We offer:
 
-Currently, two official plugins are available:
+* **Free Live Sessions:** Engage with expert tutors in interactive sessions. 
+* **Affordable Programming Courses:** Access high-quality courses at budget-friendly prices.
+* **Supportive Learning Community:** Connect with fellow learners and get assistance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Our Vision:** To empower learners from diverse backgrounds to thrive in the IT sector.
+
+**Accessible to:** Students in India and Sri Lanka.
