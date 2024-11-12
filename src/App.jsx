@@ -20,6 +20,7 @@ const App = () => {
         <Route path="/reg-success" component={RegSuccess} />
         <Route path="/newsletter-success" component={NewsletterSuccess} />
         <Route path="/server-error" component={ServerError} />
+        <Route path="/not-found" component={NotFound}/>
         <Route path="*" component={NotFound}/>
       </Switch>
     </div>
