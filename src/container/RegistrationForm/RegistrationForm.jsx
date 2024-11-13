@@ -187,7 +187,7 @@ function RegistrationForm() {
       // Define an async function to handle the POST request
       const submitFormData = async () => {
         try {
-          const response = await fetch(`${import.meta.env.VITE_API_URL_DEV}/api/students`, {
+          const response = await fetch(`${import.meta.env.VITE_API_URL}/api/students`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
