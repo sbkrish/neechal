@@ -38,7 +38,7 @@ const Newsletter = () => {
       };
       const submitFormData = async () => {
         try {
-          const response = await fetch("http://localhost:8080/api/newsletter", {
+          const response = await fetch(`${import.meta.env.VITE_API_URL_DEV}/api/newsletter`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
