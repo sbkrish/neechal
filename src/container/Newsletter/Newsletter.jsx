@@ -84,7 +84,7 @@ const Newsletter = () => {
         Join the waitlist for{" "}
         <span className="text-blue-700">upcoming batch</span> notifications
       </p>
-      <form className="max-w-xl mx-auto" onSubmit={handleSubmit}>
+      <form className="max-w-xl mx-auto" onSubmit={handleSubmit} netlify>
         <div className="p-1.5 flex flex-col sm:flex-row items-center gap-2 rounded-lg dark:border-neutral-700">
           <div className="relative w-full">
             <label htmlFor="hero-input" className="sr-only">

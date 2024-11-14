@@ -261,7 +261,7 @@ function RegistrationForm() {
             Registration Form
           </h2>
 
-          <form className="space-y-4" onSubmit={handleSubmit}>
+          <form className="space-y-4" onSubmit={handleSubmit} netlify>
             {/* Name */}
             <div>
               <label className="block text-sm font-medium text-gray-700">
