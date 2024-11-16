@@ -27,7 +27,7 @@ const Header = () => {
         <div className="app__header-badge ">
           <div className="badge-cmp app__flex mt-0 md:mt-8 text-lg mb-2 md:mb-10 ">
             <div>
-              <p className="flex items-center justify-center gap-2 rounded-full bg-purple-100 px-2.5 py-1 text-sm md:text-md text-purple-700">
+              <p className="flex items-center justify-center font-semibold gap-2 rounded-full bg-purple-100 px-2.5 py-1 text-sm md:text-md text-purple-700">
                 <svg
                   width="24px"
                   height="24px"
@@ -53,10 +53,10 @@ const Header = () => {
                 New Batch Announcement
               </p>
 
-              <p className="text-gray-800 mt-4 text-center text-xl md:text-3xl font-extrabold">
+              <p className="text-gray-800 mt-4 text-center text-2xl md:text-3xl font-extrabold">
                 Join our 30-day live C programming session!
               </p>
-              <p className="mt-2 text-gray-600 text-center text-md md:text-base">
+              <p className="mt-2 text-gray-600 text-center text-sm md:text-base">
                 Just one hour a day, no cost at all!
               </p>
 
