@@ -20,14 +20,14 @@ const Banner = () => {
           </p>
         </div>
       
-        <p className="mt-2 text-gray-500 sm:text-md">
+        <p className="mt-2 text-gray-500 sm:text-lg text-sm">
           As a dedicated tutor specializing in IT and web development, I teach programming languages and web technologies. At Neechal, I focus on helping students and professionals build strong coding foundations and advance their careers in the IT sector.
         </p>
       </div>
 
       <StatsList />
 
-      <div className="flex flex-wrap justify-center gap-6 mt-8">
+      <div className="flex flex-wrap justify-center sm:gap-6 gap-0 mt-0">
         <a href="https://sbkrish.urbanpro.com" target="_blank" rel="noreferrer">
           <div className="flex justify-center items-center">
             <div className="bg-white rounded-full z-0">
