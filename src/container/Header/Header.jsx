@@ -53,10 +53,10 @@ const Header = () => {
                 New Batch Announcement
               </p>
 
-              <p className="text-gray-800 mt-4 text-center text-lg md:text-3xl font-extrabold">
+              <p className="text-gray-800 mt-4 text-center text-xl md:text-3xl font-extrabold">
                 Join our 30-day live C programming session!
               </p>
-              <p className="mt-2 text-gray-600 text-center text-sm md:text-base">
+              <p className="mt-2 text-gray-600 text-center text-md md:text-base">
                 Just one hour a day, no cost at all!
               </p>
 
