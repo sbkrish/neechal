@@ -18,7 +18,7 @@ const StatsList = () => {
     <p className="font-bold text-xl sm:text-2xl">2000+</p>
     <p className="text-sm sm:text-lg text-gray-700">Teaching hours</p>
   </div>
-  <div className="flex justify-start flex-col border rounded-lg p-3 w-44 sm:w-56">
+  <div className="flex justify-start flex-col border rounded-lg p-3 w-40 sm:w-48">
     <p className="font-bold text-xl sm:text-2xl">4.9/5</p>
     <p className="text-sm sm:text-lg text-gray-700">Urbanpro Rating</p>
   </div>
