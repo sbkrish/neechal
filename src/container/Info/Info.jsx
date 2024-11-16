@@ -11,14 +11,14 @@ const Info = () => {
   return (
   
 <footer className="bg-gray-900">
-  <div className="mx-auto max-w-5xl px-4 pt-16 pb-5 sm:px-6 lg:px-8">
+  <div className="mx-auto max-w-5xl pt-16 pb-5 sm:px-6 lg:px-8">
     <div className="flex justify-center text-teal-300">
     <span className="logo-font text-3xl font-extrabold lowercase text-white">
           Neechal 
         </span>
     </div>
 
-    <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-400">
+    <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-400 px-4">
     Empowering students and professionals with expert programming knowledge through interactive learning. Dive into the world of coding and swim across all levels with us.
     </p>
     {
@@ -168,11 +168,11 @@ const Info = () => {
         </a>
       </li> */}
     </ul>
-   <div className="mt-16 border-t pt-8 border-gray-800 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-400">
+   <div className="mt-16 border-t pt-5 border-gray-800 flex flex-col-reverse sm:flex-row justify-between gap-2 sm:gap-0 items-center text-sm text-gray-400">
   <p className="text-center sm:text-left">© Neechal 2024. All rights reserved.</p>
-  <div className="flex space-x-4 mt-4 sm:mt-0">
-    <Link href='/terms-of-use' className="hover:underline">Terms of Use</Link>
-    <Link href='/policy' className="hover:underline">Privacy Policy</Link>
+  <div className="flex space-x-4">
+    <Link href='/terms-of-use' className="underline">Terms of Use</Link>
+    <Link href='/policy' className="underline">Privacy Policy</Link>
   </div>
 </div>
 
