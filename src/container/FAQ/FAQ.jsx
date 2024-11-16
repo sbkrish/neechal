@@ -17,7 +17,7 @@ const FAQ = () => {
   {/* Grid */}
   <div className="grid sm:grid-cols-2 gap-6 md:gap-12">
     <div>
-      <h3 className="text-lg sm:text-base font-semibold text-gray-800 dark:text-neutral-200">
+      <h3 className="text-sm sm:text-base font-semibold text-gray-800 dark:text-neutral-200">
         What is Neechal?
       </h3>
       <p className="mt-2 text-gray-600 dark:text-neutral-400 text-sm sm:text-base">
@@ -26,7 +26,7 @@ const FAQ = () => {
     </div>
     {/* End Col */}
     <div>
-      <h3 className="text-lg sm:text-base font-semibold text-gray-800 dark:text-neutral-200">
+      <h3 className="text-sm sm:text-base font-semibold text-gray-800 dark:text-neutral-200">
         Who can enroll in Neechal's free courses?
       </h3>
       <p className="mt-2 text-gray-600 dark:text-neutral-400 text-sm sm:text-base">
@@ -35,7 +35,7 @@ const FAQ = () => {
     </div>
     {/* End Col */}
     <div>
-      <h3 className="text-lg sm:text-base font-semibold text-gray-800 dark:text-neutral-200">
+      <h3 className="text-sm sm:text-base font-semibold text-gray-800 dark:text-neutral-200">
         How does Neechal ensure the quality of its free courses?
       </h3>
       <p className="mt-2 text-gray-600 dark:text-neutral-400 text-sm sm:text-base">
@@ -44,7 +44,7 @@ const FAQ = () => {
     </div>
     {/* End Col */}
     <div>
-      <h3 className="text-lg sm:text-base font-semibold text-gray-800 dark:text-neutral-200">
+      <h3 className="text-sm sm:text-base font-semibold text-gray-800 dark:text-neutral-200">
         Is there any certification provided after course completion?
       </h3>
       <p className="mt-2 text-gray-600 dark:text-neutral-400 text-sm sm:text-base">
@@ -53,7 +53,7 @@ const FAQ = () => {
     </div>
     {/* End Col */}
     <div>
-      <h3 className="text-lg sm:text-base font-semibold text-gray-800 dark:text-neutral-200">
+      <h3 className="text-sm sm:text-base font-semibold text-gray-800 dark:text-neutral-200">
         Can I join Neechal's courses from any country?
       </h3>
       <p className="mt-2 text-gray-600 dark:text-neutral-400 text-sm sm:text-base">
@@ -62,7 +62,7 @@ const FAQ = () => {
     </div>
     {/* End Col */}
     <div>
-      <h3 className="text-lg sm:text-base font-semibold text-gray-800 dark:text-neutral-200">
+      <h3 className="text-sm sm:text-base font-semibold text-gray-800 dark:text-neutral-200">
         Is Neechal's course recorded or live?
       </h3>
       <p className="mt-2 text-gray-600 dark:text-neutral-400 text-sm sm:text-base">
