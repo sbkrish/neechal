@@ -57,7 +57,7 @@ const Header = () => {
                 Join our 30-day live C programming session!
               </p>
               <p className="mt-2 text-gray-600 text-center text-sm md:text-base">
-                Just one hour a day, no cost at all!
+              Completely free for eligible students in India and Sri Lanka!
               </p>
 
               <div className="text-gray-800 mt-4 text-center p-3 rounded border">
