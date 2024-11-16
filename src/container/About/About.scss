@@ -10,6 +10,11 @@
     align-items: flex-start;
     flex-wrap: wrap;
     margin-top: 2rem;
+
+
+    @media screen and (max-width: 640px) {
+        justify-content: space-evenly;
+    }
 } 
 
 .app__profile-item {
@@ -33,6 +38,16 @@
 
         img {
             height: 320px;
+        }
+    }
+
+    @media screen and (max-width: 640px) {
+        width: 165px;
+        margin: 5px;
+        padding: 8px;
+        height: 250px;
+        img {
+            height: 100px;
         }
     }
 

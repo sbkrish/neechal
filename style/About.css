@@ -11,6 +11,11 @@
   flex-wrap: wrap;
   margin-top: 2rem;
 }
+@media screen and (max-width: 640px) {
+  .app__profiles {
+    justify-content: space-evenly;
+  }
+}
 
 .app__profile-item {
   width: 250px;
@@ -33,5 +38,16 @@
   }
   .app__profile-item img {
     height: 320px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .app__profile-item {
+    width: 165px;
+    margin: 5px;
+    padding: 8px;
+    height: 250px;
+  }
+  .app__profile-item img {
+    height: 100px;
   }
 }/*# sourceMappingURL=About.css.map */
