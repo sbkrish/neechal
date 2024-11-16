@@ -39,6 +39,8 @@
 
     @media screen and (max-width: 600px) {
         flex-direction: column;
+        padding: 1rem;
+        margin: 2rem 0 0;
     }
 
 }
@@ -72,6 +74,16 @@
         font-weight: 400;
         color: (--gray-color);
         margin-top: 5px;
+    }
+
+    @media screen and (max-width: 600px) {
+        padding: 0 1rem;
+        justify-content: space-evenly;
+
+        p {
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
     }
 }
 
