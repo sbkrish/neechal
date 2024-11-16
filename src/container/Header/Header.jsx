@@ -74,7 +74,7 @@ const Header = () => {
               <div className="grid mt-6">
                 <a
                   href="#register"
-                  className="py-2 md:py-3 px-3 md:px-4 text-sm sm:text-base font-medium text-white bg-green-600 rounded-lg hover:bg-green-700 focus:outline-none text-center"
+                  className="py-3 px-4 text-md sm:text-base font-medium text-white bg-green-600 rounded-lg hover:bg-green-700 focus:outline-none text-center"
                 >
                   Enroll Now
                 </a>
