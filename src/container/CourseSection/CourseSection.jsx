@@ -11,7 +11,7 @@ const CourseDetailCard = () => {
     
     <ul className="mb-4 text-sm sm:text-base">
       <li className="text-gray-700 mb-1">
-        <span className="font-semibold">Duration:</span> 30 days (including weekends)
+        <span className="font-semibold">Duration:</span> 30 days (Monday - Saturday)
       </li>
       <li className="text-gray-700 mb-1">
         <span className="font-semibold">Time:</span> 9:00 PM - 10:00 PM IST
