@@ -168,13 +168,14 @@ const Info = () => {
         </a>
       </li> */}
     </ul>
-    <div className="mt-16 border-t pt-8 border-gray-800 flex justify-between items-center text-sm text-gray-400">
-  <p>© Neechal 2024. All rights reserved.</p>
-  <div className="flex space-x-4">
+   <div className="mt-16 border-t pt-8 border-gray-800 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-400">
+  <p className="text-center sm:text-left">© Neechal 2024. All rights reserved.</p>
+  <div className="flex space-x-4 mt-4 sm:mt-0">
     <Link href='/terms-of-use' className="hover:underline">Terms of Use</Link>
     <Link href='/policy' className="hover:underline">Privacy Policy</Link>
   </div>
 </div>
+
 
   </div>
 </footer>
