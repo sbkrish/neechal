@@ -260,7 +260,7 @@ function RegistrationForm() {
         {/* Course Details */}
         <CourseDetailCard className="w-full md:w-1/2" />
         <div className="bg-white p-6 md:p-8 rounded-lg shadow-lg w-full md:w-1/2">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4 md:mb-6">
+          <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 mb-4">
             Registration Form
           </h2>
 
