@@ -124,7 +124,6 @@ function RegistrationForm() {
         country: country,
       });
     }
-
   };
 
   const isValidEmail = validator.isEmail(formData.email);
@@ -187,13 +186,16 @@ function RegistrationForm() {
       // Define an async function to handle the POST request
       const submitFormData = async () => {
         try {
-          const response = await fetch(`${import.meta.env.VITE_API_URL}/api/students`, {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify(sanitizedData),
-          });
+          const response = await fetch(
+            `${import.meta.env.VITE_API_URL}/api/students`,
+            {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(sanitizedData),
+            }
+          );
 
           if (response.ok) {
             // Handle success
@@ -254,10 +256,11 @@ function RegistrationForm() {
       <p className="head-text mb-10" id="courses">
         Take your <span>first step</span> to get started
       </p>
-      <div className="app__register-item flex justify-evenly w-full">
-        <CourseDetailCard />
-        <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-lg">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-6">
+      <div className="app__register-item flex flex-col md:flex-row justify-evenly w-full gap-6">
+        {/* Course Details */}
+        <CourseDetailCard className="w-full md:w-1/2" />
+        <div className="bg-white p-6 md:p-8 rounded-lg shadow-lg w-full md:w-1/2">
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4 md:mb-6">
             Registration Form
           </h2>
 
