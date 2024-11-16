@@ -38,7 +38,6 @@
 @media screen and (max-width: 600px) {
   .app__testimonial-item {
     flex-direction: column;
-    padding: 1rem;
   }
 }
 
