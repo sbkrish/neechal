@@ -16,6 +16,11 @@
   position: fixed;
   z-index: 2;
 }
+@media screen and (max-width: 640px) {
+  .app__navbar {
+    padding: 0.5rem 1rem;
+  }
+}
 
 .app__navbar-logo {
   display: flex;
@@ -93,8 +98,8 @@
   bottom: 0;
   right: 0;
   z-index: 5;
-  padding: 1rem;
-  width: 80%;
+  padding-left: 1rem;
+  width: 60%;
   height: 100vh;
   display: flex;
   justify-content: flex-end;

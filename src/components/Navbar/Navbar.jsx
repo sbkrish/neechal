@@ -38,7 +38,7 @@ const Navbar = () => {
         ))}
       </ul>
       <a
-        className=" items-center gap-2 hidden md:inline-flex rounded border border-indigo-600 px-6 py-2 text-indigo-600 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
+        className=" items-center gap-2 hidden md:inline-flex rounded-lg border border-indigo-600 px-6 py-2 text-indigo-600 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
         href="#register"
       >
         <span className="text-md font-medium"> Register </span>

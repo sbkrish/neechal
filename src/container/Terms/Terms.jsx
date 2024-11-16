@@ -3,7 +3,7 @@ import React from 'react';
 const Terms = () => {
   return (
     <div className="p-8 max-w-4xl mx-auto bg-white">
-      <h1 className="text-2xl font-bold mb-4 mt-20">Terms of Use</h1>
+      <h1 className="text-2xl font-bold mb-4 mt-10">Terms of Use</h1>
       <p className="mb-4"><strong>Effective Date:</strong> 22-OCT-2024</p>
   {/* <li>[Insert Date] - Updated the No Refund Policy section for clarity.</li> */}
       <p className="mb-6">

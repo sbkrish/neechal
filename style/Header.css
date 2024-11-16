@@ -34,6 +34,11 @@
     padding: 6rem 1rem 0;
   }
 }
+@media screen and (max-width: 600px) {
+  .app__header {
+    padding: 4rem 1rem 0;
+  }
+}
 
 .app__header-info {
   flex: 1.1;
