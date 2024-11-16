@@ -1,29 +1,37 @@
-import React, { useEffect } from "react";
+import React from "react";
 import StatsList from "./Stats/Stats";
 import { images } from "../constants";
 
 const Banner = () => {
   return (
     <div className="bg-white pb-10">
-      <div className="mx-auto max-w-3xl text-center pt-10">
-    <h2 className="head-text">
-        Tutor's Profile
-      </h2>
-      <div className="items-center flex justify-center flex-col mt-4">  
-      <img src={images.sbkrish} alt="" className="w-32 h-32 rounded-xl border border-emerald-500 object-cover "/>
-      <p className="mt-2 rounded-md border pr-3 pl-3">Balakrishnan Subramaniyan</p>
-      </div>
+      <div className="mx-auto max-w-3xl text-center pt-10 px-4 sm:px-6 md:px-8">
+        <h2 className="head-text text-3xl sm:text-4xl md:text-5xl">
+          Tutor's Profile
+        </h2>
+        <div className="items-center flex justify-center flex-col mt-4">  
+          <img 
+            src={images.sbkrish} 
+            alt="Tutor Image" 
+            className="w-32 h-32 rounded-xl border border-emerald-500 object-cover md:w-40 md:h-40" 
+          />
+          <p className="mt-2 rounded-md border pr-3 pl-3 text-sm sm:text-base md:text-lg">
+            Balakrishnan Subramaniyan
+          </p>
+        </div>
       
-    <p className="mt-2 text-gray-500 sm:text-md">As a dedicated tutor specializing in IT and web development, I teach programming languages and web technologies. At Neechal, I focus on helping students and professionals build strong coding foundations and advance their careers in the IT sector.</p>
-  </div>
+        <p className="mt-2 text-gray-500 sm:text-md">
+          As a dedicated tutor specializing in IT and web development, I teach programming languages and web technologies. At Neechal, I focus on helping students and professionals build strong coding foundations and advance their careers in the IT sector.
+        </p>
+      </div>
 
-    <StatsList />
+      <StatsList />
 
-     <div className="flex justify-center align-middle gap-10">
-      <a href="https://sbkrish.urbanpro.com" target="_blank" rel="noreferrer">
-<div className="flex justify-center items-center">
-        <div className="bg-white rounded-full z-0">
-          <svg
+      <div className="flex flex-wrap justify-center gap-6 mt-8">
+        <a href="https://sbkrish.urbanpro.com" target="_blank" rel="noreferrer">
+          <div className="flex justify-center items-center">
+            <div className="bg-white rounded-full z-0">
+            <svg
             xmlns="http://www.w3.org/2000/svg"
             width="110"
             height="112"
@@ -292,74 +300,77 @@ const Banner = () => {
             </g>
             <script xmlns="" />
           </svg>
-        </div>
+            </div>
 
-        <div style={{
-          background: 'linear-gradient(45deg, #E2E2E2 31%, #F4F4F4 31%)',
-        }} className="flex justify-center flex-col items-center pr-8 pl-10 pt-4 pb-4 -ml-6  rounded-md">
-          <p className="">UrbanPro certified</p>
-          <p className="text-2xl text-gray-700">Super Tutor</p>
-        </div>
-      </div>
-    </a>
-      <a rel="noreferrer"
-        href="https://sbkrish.urbanpro.com/sbkrish?_r=widgets|UrbanProBadge|Excellence Award|300x117|1682285"
-        target="_blank"
-        style={{ display: "inline-block" }}
-      >
-        <div style={{ position: "relative", display: "inline-block" }}>
-          <span
-            style={{
-              position: "absolute",
-              color: "rgb(0, 0, 0)",
-              left: "14%",
-              bottom: "35%",
-              fontSize: "90%",
-              lineHeight: "90%",
-            }}
-          >
-            2023
-          </span>
+            <div 
+              style={{
+                background: 'linear-gradient(45deg, #E2E2E2 31%, #F4F4F4 31%)',
+              }} 
+              className="flex justify-center flex-col items-center pr-8 pl-10 pt-4 pb-4 -ml-6 rounded-md">
+              <p className="text-sm sm:text-base">UrbanPro certified</p>
+              <p className="text-2xl text-gray-700">Super Tutor</p>
+            </div>
+          </div>
+        </a>
+
+        <a 
+          rel="noreferrer"
+          href="https://sbkrish.urbanpro.com/sbkrish?_r=widgets|UrbanProBadge|Excellence Award|300x117|1682285"
+          target="_blank"
+          style={{ display: "inline-block" }}
+        >
+          <div style={{ position: "relative", display: "inline-block" }}>
+            <span
+              style={{
+                position: "absolute",
+                color: "rgb(0, 0, 0)",
+                left: "14%",
+                bottom: "35%",
+                fontSize: "90%",
+                lineHeight: "90%",
+              }}
+            >
+              2023
+            </span>
+            <img
+              src="https://www.urbanpro.com/assets/new-ui/badges/Excellence Award@300x117.png"
+              alt="Excellence Award"
+              style={{ maxWidth: "100%", display: "block" }}
+            />
+            <p
+              style={{
+                position: "absolute",
+                margin: 0,
+                overflow: "hidden",
+                textOverflow: "ellipsis",
+                whiteSpace: "nowrap",
+                width: "50%",
+                color: "rgb(51, 51, 51)",
+                textAlign: "center",
+                bottom: "36%",
+                left: "44%",
+                fontSize: 13,
+              }}
+            >
+              C Language
+            </p>
+          </div>
+        </a>
+
+        <a 
+          rel="noreferrer"
+          href="https://sbkrish.urbanpro.com/sbkrish?_r=widgets|UrbanProBadge|View My Profile|300x117|1682285"
+          target="_blank"
+          style={{ display: "inline-block" }}
+        >
           <img
-            src="https://www.urbanpro.com/assets/new-ui/badges/Excellence Award@300x117.png"
-            alt="Excellence Award"
-            style={{ maxWidth: "100%", display: "block" }}
+            src="https://www.urbanpro.com/assets/new-ui/badges/View My Profile@300x117.png"
+            alt="View My Profile"
+            style={{ maxWidth: "100%" }}
           />
-          <p
-            style={{
-              position: "absolute",
-              margin: 0,
-              overflow: "hidden",
-              textOverflow: "ellipsis",
-              whiteSpace: "nowrap",
-              width: "50%",
-              color: "rgb(51, 51, 51)",
-              textAlign: "center",
-              bottom: "36%",
-              left: "44%",
-              fontSize: 13,
-            }}
-          >
-            C Language
-          </p>
-        </div>
-      </a>
-
-      <a rel="noreferrer"
-        href="https://sbkrish.urbanpro.com/sbkrish?_r=widgets|UrbanProBadge|View My Profile|300x117|1682285"
-        target="_blank"
-        style={{ display: "inline-block" }}
-      >
-        <img
-          src="https://www.urbanpro.com/assets/new-ui/badges/View My Profile@300x117.png"
-          alt="View My Profile"
-          style={{ maxWidth: "100%" }}
-        />
-      </a>
-      
+        </a>
+      </div>
     </div>
-    </div>
-   
   );
 };
 
