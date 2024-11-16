@@ -39,7 +39,6 @@
   .app__testimonial-item {
     flex-direction: column;
     padding: 1rem;
-    margin: 2rem 0 0;
   }
 }
 
