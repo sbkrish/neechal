@@ -58,6 +58,7 @@ function RegistrationForm() {
   const [stateList, setStateList] = useState({});
   const [country, setCountry] = useState("India");
   const [isError, setIsError] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     // console.log(State.getStatesOfCountry(countryCode));
@@ -146,9 +147,6 @@ function RegistrationForm() {
       newErrors.graduation = "Graduation year is required";
     if (formData.laptop === "") newErrors.laptop = "Laptop status is required";
 
-    // if (!formData.City) newErrors.City = "City is required";
-    // if (!formData.state) newErrors.state = "State is required";
-    // if (!formData.country) newErrors.country = "Country is required";
 
     return newErrors;
   };
@@ -186,6 +184,7 @@ function RegistrationForm() {
       // Define an async function to handle the POST request
       const submitFormData = async () => {
         try {
+          setIsLoading(true);
           const response = await fetch(
             `${import.meta.env.VITE_API_URL}/api/students`,
             {
@@ -492,10 +491,20 @@ function RegistrationForm() {
             <div>
               <button
                 type="submit"
-                className="w-full px-4 py-2 bg-indigo-600 text-white font-semibold rounded-md shadow hover:bg-indigo-700"
+                className="w-full px-4 py-2 bg-indigo-600 text-white font-semibold rounded-md shadow flex items-center justify-center hover:bg-indigo-700"
+                disabled={isLoading} // Add a condition to disable the button while loading
               >
-                Submit
+                {isLoading ? (
+                  <div
+                    className="animate-spin inline-block p-[9px] w-4 h-4 border-[3px] border-current border-t-transparent text-white rounded-full"
+                    role="status"
+                    aria-label="loading"
+                  ></div>
+                ) : (
+                  "Submit"
+                )}
               </button>
+
               {Object.keys(errors).length > 0 && isError ? (
                 <p className="text-red-500 text-sm text-center">
                   {Object.keys(errors).length}{" "}
