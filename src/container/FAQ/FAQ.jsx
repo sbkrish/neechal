@@ -43,7 +43,7 @@ const FAQ = () => {
       </div>
       {/* End Title */}
       <div className="max-w-3xl mx-auto">
-        <div className="grid sm:grid-cols-1 gap-2">
+        <div className="grid sm:grid-cols-1 gap-0">
           {faqs.map((faq, index) => (
             <div
               key={index}
