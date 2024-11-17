@@ -43,11 +43,11 @@ const FAQ = () => {
       </div>
       {/* End Title */}
       <div className="max-w-3xl mx-auto">
-        <div className="grid sm:grid-cols-1 gap-4">
+        <div className="grid sm:grid-cols-1 gap-2">
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="border border-gray-200 dark:border-neutral-700 rounded-lg"
+              className=""
             >
               <button
                 className="w-full flex justify-between items-center p-4 text-left text-sm sm:text-base font-semibold text-gray-800 dark:text-neutral-200 focus:outline-none"
