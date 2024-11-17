@@ -76,7 +76,7 @@ const Newsletter = () => {
   };
   return (
     <div
-  className="p-6 sm:p-10 lg:p-14 max-w-5xl bg-blue-200 mx-auto border rounded-3xl mb-10"
+  className="p-6 sm:p-10 lg:p-14 ml-3 sm:ml-auto mr-3 sm:mr-auto max-w-5xl bg-blue-200 mx-auto border rounded-3xl mb-10 mt-10"
   id="subscribe"
 >
   {/* Input */}
