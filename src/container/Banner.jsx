@@ -14,6 +14,7 @@ const Banner = () => {
             src={images.sbkrish} 
             alt="Tutor Image" 
             className="w-32 h-32 rounded-xl border border-emerald-500 object-cover md:w-40 md:h-40" 
+            loading="lazy"
           />
           <p className="mt-2 rounded-md border pr-3 pl-3 text-sm sm:text-base md:text-lg">
             Balakrishnan Subramaniyan
@@ -336,6 +337,7 @@ const Banner = () => {
               src="https://www.urbanpro.com/assets/new-ui/badges/Excellence Award@300x117.png"
               alt="Excellence Award"
               style={{ maxWidth: "100%", display: "block" }}
+              loading="lazy"
             />
             <p
               style={{
@@ -367,6 +369,7 @@ const Banner = () => {
             src="https://www.urbanpro.com/assets/new-ui/badges/View My Profile@300x117.png"
             alt="View My Profile"
             style={{ maxWidth: "100%" }}
+            loading="lazy"
           />
         </a>
       </div>

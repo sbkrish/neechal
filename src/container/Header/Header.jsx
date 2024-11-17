@@ -107,7 +107,7 @@ const Header = () => {
         {[images.c, images.javascript, images.react, images.redux].map(
           (circle, index) => (
             <div className="circle-cmp app__flex" key={`circle-${index}`}>
-              <img src={circle} alt="circle" />
+              <img src={circle} alt="circle" loading="lazy"/>
             </div>
           )
         )}
