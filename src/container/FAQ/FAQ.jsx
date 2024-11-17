@@ -29,10 +29,16 @@ const FAQ = () => {
     },
   ];
 
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndices, setActiveIndices] = useState([0]); // Start with the first FAQ open
 
   const toggleAccordion = (index) => {
-    setActiveIndex(activeIndex === index ? null : index);
+    if (activeIndices.includes(index)) {
+      // Remove the index if it's already open
+      setActiveIndices(activeIndices.filter((i) => i !== index));
+    } else {
+      // Add the index to open it
+      setActiveIndices([...activeIndices, index]);
+    }
   };
 
   return (
@@ -45,17 +51,14 @@ const FAQ = () => {
       <div className="max-w-3xl mx-auto">
         <div className="grid sm:grid-cols-1 gap-0">
           {faqs.map((faq, index) => (
-            <div
-              key={index}
-              className=""
-            >
+            <div key={index}>
               <button
                 className="w-full flex justify-between items-center p-4 text-left text-sm sm:text-base font-semibold text-gray-800 dark:text-neutral-200 focus:outline-none"
                 onClick={() => toggleAccordion(index)}
               >
                 {faq.question}
                 <span className="ml-2">
-                  {activeIndex === index ? (
+                  {activeIndices.includes(index) ? (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-5 w-5"
@@ -88,7 +91,7 @@ const FAQ = () => {
                   )}
                 </span>
               </button>
-              {activeIndex === index && (
+              {activeIndices.includes(index) && (
                 <div className="px-4 pb-4 text-gray-600 dark:text-neutral-400 text-sm sm:text-base">
                   {faq.answer}
                 </div>
@@ -100,7 +103,6 @@ const FAQ = () => {
     </div>
   );
 };
-
 
 export default AppWrap(
   MotionWrap(FAQ, "app__faq"),
