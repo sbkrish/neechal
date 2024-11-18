@@ -17,7 +17,7 @@ const CourseDetailCard = () => {
         <span className="font-semibold">Time:</span> 9:00 PM - 10:00 PM IST
       </li>
       <li className="text-gray-700 mb-1">
-        <span className="font-semibold">Mode:</span> Online - MS Teams
+        <span className="font-semibold">Mode:</span> Online - Google Meet
       </li>
       <li className="text-gray-700 mb-1">
         <span className="font-semibold">Session:</span> Live
