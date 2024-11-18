@@ -23,6 +23,7 @@ const NeechalPolicy = () => {
         <li>Degree</li>
         <li>Education</li>
         <li>Date of birth</li>
+        <li>Occupation</li>
         <li>Gender</li>
         <li>Graduation year</li>
       </ul>
@@ -58,7 +59,7 @@ const NeechalPolicy = () => {
         <li>Request the deletion of your personal information.</li>
       </ul>
       <p className="mb-4">
-        To exercise these rights, please contact us at sbkrish@neechal.com
+        To exercise these rights, please contact us at <a href="mailto:support@neechal.com" className="text-blue-500">support@neechal.com</a>
       </p>
 
       <h2 className="text-xl font-semibold mb-2">6. Changes to This Privacy Policy</h2>
@@ -68,7 +69,7 @@ const NeechalPolicy = () => {
 
       <h2 className="text-xl font-semibold mb-2">7. Contact Us</h2>
       <p className="mb-4">
-        If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at: sbkrish@neechal.com
+        If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at: <a href="mailto:support@neechal.com" className="text-blue-500">support@neechal.com</a>
       </p>
     </div>
   );

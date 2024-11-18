@@ -25,7 +25,6 @@ const Terms = () => {
   <li>
     Be currently working in a non-IT field, such as delivery partners, shipyards, or cab drivers, and have a strong desire to embark on a transformative journey into the IT sector.
   </li>
-  <li>Be unable to pay for programming courses.</li>
 </ul>
 <p className="mb-4">
   By registering for a course, you confirm that you meet these criteria.
@@ -92,7 +91,7 @@ const Terms = () => {
 
       <h2 className="text-xl font-semibold mb-2">11. Contact Us</h2>
       <p>
-        If you have any questions about these Terms, please contact us at <u>sbkrish@neechal.com</u>
+        If you have any questions about these Terms, please contact us at <a href="mailto:support@neechal.com" className="text-blue-500">support@neechal.com</a>
       </p>
     </div>
   );

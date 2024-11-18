@@ -22,7 +22,7 @@ const SuccessMessage = () => {
         <br />
         WhatsApp: <a href="tel:+918438031453" className="text-blue-500">+918438031453</a>
         <br />
-        Email: <a href="mailto:sbkrish@neechal.com" className="text-blue-500">sbkrish@neechal.com</a>
+        Email: <a href="mailto:support@neechal.com" className="text-blue-500">support@neechal.com</a>
       </p>
       <div className="flex gap-4">
         <button
