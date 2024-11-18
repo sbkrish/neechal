@@ -21,9 +21,9 @@ const Navbar = () => {
   <nav className="app__navbar">
       <div className="app__navbar-logo">
         {/* <img src={images.logo} alt="logo" /> */}
-        <span className="logo-font text-3xl font-extrabold lowercase bg-gradient-to-bl from-blue-500 to-blue-800 bg-clip-text text-transparent ">
+        <a href="/" className="logo-font text-3xl font-extrabold lowercase bg-gradient-to-bl from-blue-500 to-blue-800 bg-clip-text text-transparent ">
           Neechal
-        </span>
+        </a>
       </div>
       <ul className="app__navbar-links">
         {navArray.map((item, idx) => (
@@ -37,7 +37,8 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      <a
+      {
+        location[0] === '/' ? <a
         className=" items-center gap-2 hidden md:inline-flex rounded-lg border border-indigo-600 px-6 py-2 text-indigo-600 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
         href="#register"
       >
@@ -56,7 +57,8 @@ const Navbar = () => {
             d="M17 8l4 4m0 0l-4 4m4-4H3"
           />
         </svg>
-      </a>
+      </a> : ""
+      }
 
       <div className="app__navbar-menu">
         <HiMenuAlt4 onClick={() => setToggle(true)} />

@@ -91,7 +91,7 @@ const Terms = () => {
 
       <h2 className="text-xl font-semibold mb-2">11. Contact Us</h2>
       <p>
-        If you have any questions about these Terms, please contact us at <a href="mailto:support@neechal.com" className="text-blue-500">support@neechal.com</a>
+        If you have any questions about these Terms, please contact us at <a href="mailto:support@neechal.com" className="text-blue-800 underline">support@neechal.com</a>
       </p>
     </div>
   );

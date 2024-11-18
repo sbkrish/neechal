@@ -20,9 +20,9 @@ const SuccessMessage = () => {
       <p className="text-lg text-gray-600 mb-6">
         For any queries, feel free to reach us at:
         <br />
-        WhatsApp: <a href="tel:+918438031453" className="text-blue-500">+918438031453</a>
+        WhatsApp: <a href="tel:+918438031453" className="text-blue-800">+918438031453</a>
         <br />
-        Email: <a href="mailto:support@neechal.com" className="text-blue-500">support@neechal.com</a>
+        Email: <a href="mailto:support@neechal.com" className="text-blue-800 underline">support@neechal.com</a>
       </p>
       <div className="flex gap-4">
         <button

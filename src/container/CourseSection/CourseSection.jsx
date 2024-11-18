@@ -44,9 +44,9 @@ const CourseDetailCard = () => {
       <li>Available only to students from India and Sri Lanka.</li>
     </ul>
 
-    <p className="text-green-600 font-semibold text-sm sm:text-base">
+    {/* <p className="text-green-600 font-semibold text-sm sm:text-base">
       Start your journey in IT with this essential programming course.
-    </p>
+    </p> */}
     <p className="mt-6 p-3 border rounded-md bg-gray-50 text-gray-600 text-sm sm:text-base">
       Kindly note: If you are able to pay and wish to join Neechal, we will soon start an affordable
       paid batch for the C programming course.{" "}
