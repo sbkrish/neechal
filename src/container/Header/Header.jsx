@@ -62,7 +62,7 @@ const Header = () => {
 
               <div className="text-gray-800 mt-4 text-center p-3 rounded border">
                 <p>First batch starts</p>
-                <p className="font-semibold text-blue-800">22-NOV-2024</p>
+                <p className="font-semibold text-blue-800">06-DEC-2024</p>
               </div>
 
               <div className="flex mt-4 gap-x-3 text-xs md:text-sm justify-center text-gray-600">
